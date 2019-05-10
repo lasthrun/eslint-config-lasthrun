@@ -15,7 +15,8 @@ module.exports = {
     '@typescript-eslint/indent': airbnbBaseStyleRules.indent,
     '@typescript-eslint/no-array-constructor': airbnbBaseStyleRules['no-array-constructor'],
     '@typescript-eslint/no-unused-vars': airbnbBaseVariablesRules['no-unused-vars'],
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.spec.*"]}],
+    'import/no-extraneous-dependencies': ['error', { 'devDependencies': ['**/*.spec.*'] }],
+    'import/prefer-default-export': ['off'],
   },
   'settings': {
     'import/resolver': {
@@ -25,7 +26,7 @@ module.exports = {
         ],
       },
     },
-    "import/core-modules": [ "ember" ]
+    'import/core-modules': ['ember'],
   },
   'env': {
     'browser': true,
