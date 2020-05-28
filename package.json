@@ -2,6 +2,7 @@
   "name": "eslint-config-lasthrun",
   "version": "1.1.0",
   "description": "eslint config for lasthrun projects",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "https://github.com/lasthrun/eslint-config-lasthrun"
