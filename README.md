@@ -1,6 +1,6 @@
 ```js
 module.exports = {
-  extends: ['eslint-config-lasthrun/express', 'eslint-config-lasthrun/react'],
+  extends: ['@lasthrun/eslint-config/express', '@lasthrun/eslint-config/react'],
   parserOptions: {
     project: './tsconfig.json',
   },
